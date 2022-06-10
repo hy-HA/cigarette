@@ -7,28 +7,41 @@ const quotes = [
     },
 
 ]
+const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)];
+
+const images = [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+]
+const chosenImg = images[Math.floor(Math.random()*images.length)];
 
 const poster = document.querySelector(".welcome_poster");
 const posterClass = poster.classList;
 const card = document.querySelector(".card_poster")
 const cardSpan = document.querySelector(".card_poster span");
-
-
+const cardImg = document.querySelector(".card_img")
+const igg = document.createElement("img");
 
 const HIDDEN_CLASSNAME = "hidden";
-const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)];
+
 
 
 function handlePosterClick(event) {
     if (posterClass.contains(HIDDEN_CLASSNAME)) {
         poster.classList.remove(HIDDEN_CLASSNAME);
         card.classList.add(HIDDEN_CLASSNAME);
+        cardImg.classList.add(HIDDEN_CLASSNAME);
     } else {
         poster.classList.add(HIDDEN_CLASSNAME);
         card.classList.remove(HIDDEN_CLASSNAME);
+        cardImg.classList.remove(HIDDEN_CLASSNAME);
         cardSpan.innerText = todaysQuote.quote;
+        igg.src = `img/${chosenImg}`;
+        cardImg.appendChild(igg);
     }
 }
 
 poster.addEventListener("click", handlePosterClick);
-card.addEventListener("click", handlePosterClick);
+cardImg.addEventListener("click", handlePosterClick);

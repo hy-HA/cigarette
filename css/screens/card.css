@@ -1,0 +1,11 @@
+.card_img {
+    width: 470px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.card_img-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

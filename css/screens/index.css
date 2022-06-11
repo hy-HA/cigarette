@@ -1,5 +1,5 @@
 .welcome {
-    padding: 30px;
+    padding: 60px;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -8,7 +8,13 @@
 
 }
 
+.welcome_poster img{
+    width: 560px;
+    height: 420px;
+}
+
 .welcome_desc {
+    width: 1000px;
     padding-top: 15px;
     text-align: center;
     display:flex;

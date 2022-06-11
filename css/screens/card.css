@@ -1,10 +1,14 @@
 
+.card_img {
+    width: 100%;
+}
+
 .card_img img {
-    height: 420px;
-    object-fit: cover;
+    width: 100%;
 }
 
 .card_poster {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,8 +17,9 @@
 }
 
 .card_poster span {
+    width: 100%;
     color: beige;
-    font-size: 20px;
+    font-size:large;
     line-height: 150%;
     display: flex;
     justify-content: center;

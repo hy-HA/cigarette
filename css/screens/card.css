@@ -1,17 +1,22 @@
 
 .card_img {
-    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     overflow: hidden;
     background-color: #090805;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.card_img img {
+    width: 100%;
+}
+
 .card_poster {
     width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -80%);
+    position: absolute;    
 }
 
 .card_poster span {

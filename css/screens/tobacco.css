@@ -30,7 +30,7 @@
     height: 100vh;
     background-color: #f4f5dc;
     animation: hideSplashScreen 1s forwards;
-    animation-delay: 8s;
+    animation-delay: 9s;
     z-index: 2;
 }
     

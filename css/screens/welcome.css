@@ -1,6 +1,7 @@
 .welcome {
-    height: 90%;
-    width: auto;
+    padding-top: 10px;
+    width: 80%;
+    height: 98%;
     text-align: center;
     display:flex;
     position: relative;

@@ -1,0 +1,33 @@
+.welcome {
+    width: 70%;
+    text-align: center;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome_poster {
+    width: 100%;
+}
+
+.welcome_poster img {
+    width: 100%;
+    z-index: 1;
+}
+
+.welcome_desc {
+    width: 100%;
+    margin-top: 2vh;
+}
+
+
+.welcome_text {
+    font-size: 1.7vw;
+    opacity: 0.7;
+}
+
+.welcome_end {
+    margin-top: 2vh;
+    font-size: 1.5vw;
+}

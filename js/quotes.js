@@ -64,8 +64,6 @@ const images = [
 ]
 const chosenImg = images[Math.floor(Math.random()*images.length)];
 
-const poster = document.querySelector(".welcome_poster");
-const posterClass = poster.classList;
 const card = document.querySelector(".card_poster")
 const cardSpan = document.querySelector(".card_poster span:first-child");
 const cardSpanA = document.querySelector(".card_poster span:last-child");
@@ -74,25 +72,14 @@ const igg = document.createElement("img");
 
 const HIDDEN_CLASSNAME = "hidden";
 
-
-
-function handlePosterClick() {
-    poster.classList.add(HIDDEN_CLASSNAME);
-    card.classList.remove(HIDDEN_CLASSNAME);
-    cardImg.classList.remove(HIDDEN_CLASSNAME);
-    cardSpan.innerText = todaysQuote.quote;
-    cardSpanA.innerText = todaysQuote.author;
-    igg.src = `img/${chosenImg}`;
-    cardImg.appendChild(igg);
-}
+cardSpan.innerText = todaysQuote.quote;
+cardSpanA.innerText = todaysQuote.author;
+igg.src = `img/${chosenImg}`;
+cardImg.appendChild(igg);
 
 function handleCardImgClick() {
-    poster.classList.remove(HIDDEN_CLASSNAME);
-    card.classList.add(HIDDEN_CLASSNAME);
-    cardImg.classList.add(HIDDEN_CLASSNAME);
     location.assign(location);
 }
 
-poster.addEventListener("click", handlePosterClick);
 cardImg.addEventListener("click", handleCardImgClick);
 card.addEventListener("click", handleCardImgClick);

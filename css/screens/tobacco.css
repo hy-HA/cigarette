@@ -14,15 +14,24 @@
     display: flex;
     position: absolute;
     animation: hideSplashScreen 1s ease-in-out forwards;
-    animation-delay: 8s;
-    z-index: 2
+    animation-delay: 16s;
+    z-index: 3;
 }
 .tobacco_container {
     width: 100%;
 }
 .tobacco_container img {
     width: 100%;
-    z-index: 2
+    z-index: 3;
+}
+
+.bgImg {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f5dc;
+    animation: hideSplashScreen 1s forwards;
+    animation-delay: 18s;
+    z-index: 2;
 }
     
 .welcome-btn {
@@ -32,7 +41,8 @@
     position: absolute;
     flex-direction: column;
     align-items: center;
-    z-index: 1
+    z-index: 1;
+    
 }
 
 .welcome-btn_poster {

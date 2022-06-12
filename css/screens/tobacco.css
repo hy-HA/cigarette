@@ -14,7 +14,7 @@
     display: flex;
     position: absolute;
     animation: hideSplashScreen 1s ease-in-out forwards;
-    animation-delay: 16s;
+    animation-delay: 8.5s;
     z-index: 3;
 }
 .tobacco_container {
@@ -30,7 +30,7 @@
     height: 100vh;
     background-color: #f4f5dc;
     animation: hideSplashScreen 1s forwards;
-    animation-delay: 18s;
+    animation-delay: 8s;
     z-index: 2;
 }
     
@@ -51,5 +51,13 @@
 
 .welcome-btn_poster img {
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     z-index: 1;
+}
+
+
+.welcome_text_s {
+    font-size: 1.5vw;
+    opacity: 0.7;
+    margin-bottom: 5%;
 }

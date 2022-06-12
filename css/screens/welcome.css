@@ -7,14 +7,6 @@
     align-items: center;
 }
 
-.welcome_poster {
-    width: 100%;
-}
-
-.welcome_poster img {
-    width: 100%;
-    z-index: 1;
-}
 
 .welcome_desc {
     width: 100%;

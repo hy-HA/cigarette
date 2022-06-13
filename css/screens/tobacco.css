@@ -16,13 +16,14 @@
     animation: hideSplashScreen 1s ease-in-out forwards;
     animation-delay: 8.5s;
     z-index: 3;
+
 }
 .tobacco_container {
     width: 100%;
+
 }
 .tobacco_container img {
     width: 100%;
-    z-index: 3;
 }
 
 .bgImg {
@@ -47,12 +48,13 @@
 
 .welcome-btn_poster {
     width: 100%;
+
 }
 
 .welcome-btn_poster img {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    z-index: 1;
+
 }
 
 

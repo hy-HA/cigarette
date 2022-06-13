@@ -9,8 +9,7 @@
 }
 
 .tobacco {
-    width: 100vw;
-    padding-bottom: 10vh;
+    width: 100%;
     display: flex;
     position: absolute;
     animation: hideSplashScreen 1s ease-in-out forwards;
@@ -18,13 +17,11 @@
     z-index: 3;
 
 }
-.tobacco_container {
-    width: 100%;
 
-}
-.tobacco_container img {
+.tobacco img {
     width: 100%;
 }
+
 
 .bgImg {
     width: 100vw;
@@ -34,8 +31,9 @@
     animation-delay: 9s;
     z-index: 2;
 }
-    
-.welcome-btn {
+
+
+.cigarette-container {
     width: 70%;
     text-align: center;
     display:flex;
@@ -43,18 +41,15 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    
 }
 
-.welcome-btn_poster {
+.cigarette {
     width: 100%;
-
 }
 
-.welcome-btn_poster img {
+.cigarette img {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 

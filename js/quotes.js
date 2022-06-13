@@ -75,7 +75,7 @@ const chosenImg = images[Math.floor(Math.random()*images.length)];
 const card = document.querySelector(".card_poster")
 const cardSpan = document.querySelector(".card_poster span:first-child");
 const cardSpanA = document.querySelector(".card_poster span:last-child");
-const cardImg = document.querySelector(".card_img")
+const cardImg = document.querySelector(".card")
 const igg = document.createElement("img");
 
 const HIDDEN_CLASSNAME = "hidden";

@@ -1,4 +1,4 @@
-let quotes = [
+const quotes = [
     { 
         quote: "힘의 반지를 운반하는 것은 혼자 하는 거야\n 이 임무는 네게 주어졌다 \n 네가 방법을 차지 못하면 그 누구도 찾지 못해\n아무리 미약한 사람이라도 미래를 바꿀 수 있어 ",
         author: "\n-반지의 제왕 [동심]"
@@ -72,13 +72,11 @@ const images = [
 ]
 const chosenImg = images[Math.floor(Math.random()*images.length)];
 
-const card = document.querySelector(".card_poster")
+const card = document.querySelector(".card")
 const cardSpan = document.querySelector(".card_poster span:first-child");
 const cardSpanA = document.querySelector(".card_poster span:last-child");
 const cardImg = document.querySelector(".card")
 const igg = document.createElement("img");
-
-const HIDDEN_CLASSNAME = "hidden";
 
 cardSpan.innerText = todaysQuote.quote;
 cardSpanA.innerText = todaysQuote.author;
